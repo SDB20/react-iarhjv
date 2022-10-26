@@ -10,8 +10,8 @@ export default function App() {
       modelo: 'Chevrolet Corvette C6 de NASCAR',
       imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3OHRGqo2t_riMeUVNv8T-FbMZ3HJ8bTK0t5h0u-H&s',
       descripcion: 'El auto mas BONITO DE LOS AÑOS 80.',
-      sonido: 'KuChao',
-      anio: '2006',
+      sonido: 'RUN-RUN-RAAAA',
+      anio: '1980',
     },
     {
       nombre: 'JAGUARCITO',
@@ -19,8 +19,8 @@ export default function App() {
       imagen:
         'https://www.enterprise.com/content/dam/ecom/utilitarian/common/exotics/us-refresh/car-thumbnails/thumbnail-2021-jaguar-xf-2048x1360.png',
       descripcion: 'El CARRO MAS DE CLASE DEL MUNDO BB.',
-      sonido: 'BEEP BEEP Mate Chocolate',
-      anio: '1960',
+      sonido: 'RAAAAAAAAAA',
+      anio: '2020',
     },
   ];
 

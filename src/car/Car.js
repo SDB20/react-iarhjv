@@ -10,7 +10,7 @@ export default function Car(props) {
     console.log('Bepeando se guardo en Base de Datos');
   }, [beepeando]);
 
-  //Style from: https://www.w3schools.com/howto/howto_css_cards.asp
+ 
 
   const estiloDivCardContenedor = {
     padding: '0px 16px 16px',
@@ -19,12 +19,7 @@ export default function Car(props) {
   const hacerBeep = (sonido) => {
     setBeppeando(!beepeando);
 
-    //console.log(sonido);
-    /*if (props.modelo.includes('C6')) {
-      alert('Ku-Chaw');
-    } else if (props.modelo.includes('170')) {
-      alert('BEEP BEEP Mate Tom-mate');
-    }*/
+
   };
 
   return (
@@ -46,10 +41,10 @@ export default function Car(props) {
             <b>Modelo:</b> {props.modelo}
           </em>
           <br />
-          {props.anio < 1970 && (
+          {props.anio < 2100 && (
             <img
-              src="https://www.atotoclassicclub.com/images/logo_a.png"
-              width="32"
+              src="https://mx.top10place.com/img_files/549502945138587"
+              width="40"
               alt="Insignia Clásico"
             />
           )}
